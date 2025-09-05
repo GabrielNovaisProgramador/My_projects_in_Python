@@ -12,12 +12,11 @@ print(resultado,"\n\n\n")
 #da expressão lógica ser True (verdadeira).
 
 salario = 937
-idade = 18
+idade = 20
 
 condicao_um = (salario > 1000)
+#                  False
 condicao_dois = (idade > 18)
+#                   True
 condicao_tres = (salario > 1000 and idade > 18)
-
-print(condicao_um)
-print(condicao_dois)
-print(condicao_tres)
+#                    (False      e      True) = False

@@ -3,10 +3,16 @@ b = True and False
 c = False and True
 d = False and False
 
+# True and True = True
+# True and False = False
+# False and True = False
+# False and False = False
+
 print(a)
 print(b)
 print(c)
 print(d)
+
 
 # Como podemos ver, se você executar essa impressão. Somente à condição "a"
 #vai resultar em (True). Porque com o operador AND, se tivermos dois valores

@@ -26,8 +26,18 @@ print("O nome do provedor é: ",provedor)
 email = "joaosilva@gmail.com"
 usuario, dominio = email.split("@")
 print("Usuário:", usuario)
-print("Domínio", dominio)
+print("Domínio:", dominio)
 
 "Será impresso da seguinte forma então." \
 "Usuário: joao.silva"
 "Domínio: gmail.com"
+
+'''Agora que temos o domínio separado podemos procurar o "." para
+identificá-lo e separar o provedor'''
+
+email = "joaosilva@gmail.com"
+usuario, dominio = email.split("@")
+indice_ponto = dominio.index(".")
+provedor = dominio[0:indice_ponto]
+print("O usuario é:",usuario)
+print("O dominio é:",dominio)
